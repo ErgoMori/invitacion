@@ -79,6 +79,42 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- Audio de fondo -->
+<audio id="musica-fondo" src="music/unPuente.mp3" loop></audio>
+
+<!-- Botón flotante siempre visible -->
+<button id="playPause" style="
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  background: #F14E95;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  z-index: 9999; /* siempre encima de todo */
+">
+  ▶️ Reproducir música
+</button>
+
+<script>
+  const audio = document.getElementById('musica-fondo');
+  const boton = document.getElementById('playPause');
+
+  boton.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play();
+      boton.textContent = '⏸️ Pausar música';
+    } else {
+      audio.pause();
+      boton.textContent = '▶️ Reproducir música';
+    }
+  });
+</script>
+
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Nicolás &amp; Lucía</h1>
