@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 890px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -1212,6 +1212,7 @@ form label {
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
   color: #F14E95;
   font-weight: 300;
+  text-transform: none;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
   margin-bottom: 10px;
