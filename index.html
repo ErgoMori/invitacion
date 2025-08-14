@@ -16,9 +16,8 @@
   	<!-- Whatsapp -->
 	<meta property="og:title" content="Invitación a nuestra boda 💍">
 	<meta property="og:description" content="Nos casamos y queremos que nos acompañes. Lucía y Nicolás.">
-	<meta property="og:image" content="https://ergomori.github.io/invitacion/images/icono_boda2.png">
+	<meta property="og:image" content="https://ergomori.github.io/invitacion/images/icono_boda.png">
 	<meta property="og:url" content="https://ergomori.github.io/invitacion/index.html">
-
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -79,7 +78,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
-					<!-- Audio de fondo -->
+<!-- Audio de fondo -->
 <audio id="musica-fondo" src="music/unPuente.mp3" loop></audio>
 
 <!-- Botón flotante siempre visible -->
@@ -168,43 +167,31 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Un día especial</span>
 					<h2>Para compartir juntos</h2>
+					<span>Nos reuniremos para compartir y celebrar en un cálido ambiente familiar</span>
 				</div>
 			</div>
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
+							<div class="col-md-8 col-sm-8 col-md-offset-2 text-center">
 								<div class="event-wrap animate-box">
-									<h3>La ceremonia</h3>
+									<h3>Ceremonia y festejo</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>14:00 PM</span>
-										<span>15:00 PM</span>
+										<span>13:00 a</span>
+										<span>17:30 HS</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
 										<span>Sábado 30</span>
 										<span>Agosto, 2025</span>
 									</div>
-									<p>Casamiento civil<br/>Votos de los novios<br/>Brindis y agradecimientos.</p>
-									<p>La recepción será a las 13 hs.</p>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Celebración en familia</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>16:00 PM</span>
-										<span>18:00 AM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Sábado 30</span>
-										<span>Agosto, 2025</span>
-									</div>
-									<p>Nos reuniremos para compartir y celebrar en un cálido ambiente familiar</p>
+									<p>13:00 hs - Recepción<br/>
+									14:00 hs - Casamiento civil, votos de los novios y brindis.<br/>
+									14:30 hs - Almuerzo<br/>
+									15:30 hs - Mesa dulce<br/>
+									16:00 hs - Fotos y tiempo para compartir</p>
 									<p>Contaremos con pileta; ¡Quienes lo deseen pueden traer su traje de baño!</p>
 								</div>
 							</div>
@@ -219,7 +206,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Cuando el amor se encontró...</span>
+					<span>Cuando el amor nos encontró...</span>
 					<h2>Nuestra historia</h2>
 					<p>Todo comenzó en el año 2023, y hoy, dos años después estamos haciendo realidad nuestra historia de amor.</p>
 				</div>
@@ -386,9 +373,10 @@
         year: 2025,
         month: 8,  // Agosto (el código ajustará internamente)
         day: 30,
-        hours: 0,  // Medianoche
+        hours: 13,  // tarde
         minutes: 0,
         seconds: 0,
+		enableUtc: false,
         words: {
             days: 'día',
             hours: 'hora',
@@ -396,7 +384,6 @@
             seconds: 'segundo',
             pluralLetter: 's'
         },
-        enableUtc: false // Usar hora local
     });
 </script>
 	</body>
